@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personalized Webpage</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>Personalized Webpage</h1>
+
+    <!-- User Form -->
+    <form id="userForm">
+      <label for="Name">Name:</label><br />
+      <input
+        type="text"
+        id="name"
+        placeholder="Enter your name"
+        required
+      /><br /><br />
+
+      <label for="Age">Age:</label><br />
+      <input
+        type="number"
+        id="age"
+        placeholder="Enter your age"
+        required
+      /><br /><br />
+
+      <button type="submit">Save Information</button>
+    </form>
+
+    <hr />
+
+    <!-- Output Section -->
+
+    <h2>Greeting</h2>
+    <p id="greeting"></p>
+
+    <h2>Adult Content Message</h2>
+    <p id="adultMessage"></p>
+
+    <h2>Age in Months</h2>
+    <p id="ageMonths"></p>
+
+    <h2>Motivational Quotes</h2>
+    <div id="quotes"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
