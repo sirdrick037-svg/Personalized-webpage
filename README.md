@@ -40,9 +40,6 @@ Personalized-Webpage/
 └── README.md
 ```
 
-## Screenshots
-
-(Add screenshots of your webpage here if required.)
 
 ## Author
 
