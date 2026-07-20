@@ -1,4 +1,4 @@
-const form = document.getElementById("userForm");
+const form = document.getElementById("userform");
 const nameInput = document.getElementById("name");
 const ageInput = document.getElementById("age");
 
